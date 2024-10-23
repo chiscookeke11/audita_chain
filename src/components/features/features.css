@@ -1,9 +1,9 @@
 .features{
 
-    background: red;
+    background:  linear-gradient(90deg, rgba(2, 10, 27, 0.5) 0%, rgba(2, 10, 27, 0.5) 100%), url("https://github.com/chiscookeke11/Test-pagea/blob/main/stock-market-finance-account-report-260nw-261176156%201.png?raw=true");
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 90%;
     background-repeat: no-repeat;
     height: auto;
     padding: 40px 20px;
@@ -11,6 +11,8 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    min-width: 350px;
+    margin: 40px auto;
 }
 .features div{
     color: #ffffff;
