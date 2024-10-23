@@ -1,0 +1,101 @@
+.Hero{
+    background-color: #020A1B;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+.Hero div{
+    max-width: 50vw;
+    max-height: 100vh;
+    min-width: 350px;
+    width: 50%;
+    min-height: 350px;
+}
+.Hero .text{
+    color: #fff;
+    padding: 40px 15px ;
+    width: 45%;
+}
+.Hero .text h1{
+    font-size: 8vw;
+    font-weight: 700; 
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0;
+}
+.Hero .text h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: left;
+    background: linear-gradient(288.42deg, #0A2B73 27.07%, #031130 55.91%, #FC007A 100.89%);
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 20px;
+    border: 1px;
+}
+.Hero .text p{
+    max-width: 362px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.Hero button {
+    background-color: #7285AF;
+    border-radius: 10px;
+    padding: 8px 14px;
+    outline: none;
+    border: none;
+    color: #0A2D77;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 16.94px; 
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    margin: 10px 0;
+}
+.Hero button span{
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(288.42deg, #0A2B73 27.07%, #031130 55.91%, #FC007A 100.89%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: inherit;
+    transition: 0.3s ease-in-out;
+}
+.Hero button:hover{
+    color: #fff;
+}
+.Hero button:hover span {
+    width: 100%;
+}
+.Hero .image_holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 350px;
+}
+.Hero .image_holder img{
+    width: 75%;
+    height: auto;
+    display: block;
+}
+.Hero hr{
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    border: 1px solid #FC007A;
+}
