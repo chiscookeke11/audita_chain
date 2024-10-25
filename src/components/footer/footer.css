@@ -30,6 +30,11 @@
 .footer .icons a img{
     width: 1.8rem;
 }
+.footer h3{
+    color: #1B52C9;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
 .footer ul {
     list-style: none;
 }

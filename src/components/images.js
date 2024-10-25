@@ -35,5 +35,5 @@ export const image = {
     logo,
     name_img,
     email_img,
-    password_img
+    password_img,
 }

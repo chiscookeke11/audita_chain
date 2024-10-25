@@ -5,14 +5,14 @@ import { image } from '../../components/images';
 const LoginSignup = () => {
     const [action, setAction] = useState("Sign Up");
 
-    // Function to handle form submission (can be customized further)
+    
     const handleSubmit = (e) => {
-        e.preventDefault();  // Prevent form refresh
+        e.preventDefault();  
         if (action === "Sign Up") {
-            // Handle Sign Up logic
+            
             console.log("Signing up...");
         } else {
-            // Handle Login logic
+            
             console.log("Logging in...");
         }
     };

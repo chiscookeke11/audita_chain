@@ -10,7 +10,7 @@ const Facts = () => {
 
   return (
     <div className='facts'>
-      <div data-aos="fade-up" data-aos-duration="1000">
+      <div>
         <h1>Company Overview</h1>
         <p>
           Auditablock is a leading auditing firm dedicated to providing expert financial solutions
@@ -18,21 +18,21 @@ const Facts = () => {
         </p>
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <div>
         <h1>Our Story</h1>
         <p>
           At Auditablock, we believe in the power of transparency and accountability. Our team of seasoned auditors brings decades of experience in delivering exceptional auditing services. Our commitment to excellence has earned recognition as a trusted partner in the industry.
         </p>
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+      <div>
         <h1>Expertise</h1>
         <ul>
-          <li>Financial Statement Audits</li>
-          <li>Internal Audit Services</li>
-          <li>Compliance Audits (SOX, HIPAA, GDPR)</li>
-          <li>Financial Planning and Advisory</li>
-          <li>Risk Management</li>
+          <li> <span className="dot"></span>Financial Statement Audits</li>
+          <li><span className="dot"></span>Internal Audit Services</li>
+          <li><span className="dot"></span>Compliance Audits (SOX, HIPAA, GDPR)</li>
+          <li><span className="dot"></span>Financial Planning and Advisory</li>
+          <li><span className="dot"></span>Risk Management</li>
         </ul>
       </div>
     </div>
