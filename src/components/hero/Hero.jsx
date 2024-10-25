@@ -1,5 +1,4 @@
 import React from 'react';
-import './hero.css';
 import 'animate.css';
 import { useInView } from 'react-intersection-observer';
 import { image } from '../images';
