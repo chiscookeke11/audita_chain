@@ -1,0 +1,36 @@
+.facts{
+    width: 70%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    padding: 40px 20px;
+    min-width: 350px;
+    max-width: 800px;
+}
+.facts div{
+    width: 70%;
+    min-width: 330px;
+}
+.facts div h1{
+    width: 70%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1B52C9;
+    padding: 10px 20px;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0 auto;
+}
+.facts div p, .facts ul{
+    padding: 10px 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.facts ul {
+    list-style: none;
+}

@@ -1,0 +1,15 @@
+.aboutusbanner{
+    width: 80%;
+    height: 75vh;
+    margin: 30px auto;
+    border-radius: 3px;
+    background:  url("../../assets/unsplash_DNADGmifFsc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem ;
+    color: #fff;
+}

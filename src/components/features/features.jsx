@@ -8,7 +8,7 @@ const Features = () => {
 
   const { ref: textRef, inView: textInView } = useInView({
     triggerOnce: true,
-    threshold: 0.5,
+    threshold: 0.3,
   });
 
   const { ref: imageRef, inView: imageInView } = useInView({

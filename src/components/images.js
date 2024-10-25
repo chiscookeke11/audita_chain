@@ -13,6 +13,9 @@ import  accuracy from '../assets/pngtree-check-mark-3d-icon-render-png-image_614
 import  cost_effectiveness_img from '../assets/accounting-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--profit-calculation-growth-calculating-revenue-calculator-business-plan-pack-illustrations-4056628 1.png'
 import  efficiency_img from '../assets/tcmal home page gaphic -1- 1.png'
 import  logo from '../assets/LOGO.png'
+import name_img from '../assets/person-circle.svg'
+import email_img from '../assets/person-fill.svg'
+import password_img from '../assets/key-fill.svg'
 
 export const image = {
     banner_img,
@@ -29,5 +32,8 @@ export const image = {
     accuracy,
     cost_effectiveness_img,
     efficiency_img, 
-    logo
+    logo,
+    name_img,
+    email_img,
+    password_img
 }

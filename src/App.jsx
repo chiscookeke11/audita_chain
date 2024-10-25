@@ -2,7 +2,7 @@ import React from 'react'
 import HomePage from './pages/HomePage'
 import { Route, Routes } from 'react-router-dom'
 import AboutUs from './pages/AboutUs'
-import Login from './pages/Login'
+import Login from './pages/Loginpage/Login'
 import Navbar from './components/Navbar/Navbar'
 
 const App = () => {

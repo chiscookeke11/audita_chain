@@ -27,7 +27,7 @@ const Navbar = () => {
               Contact
             </NavLink>
             <NavLink to="/login">
-              <button className='login_btn'>Log in</button>
+              <button className='login_btn nav-link'>Log in</button>
             </NavLink>
           </div>
           <div className="md:hidden flex items-center">

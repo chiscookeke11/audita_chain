@@ -4,7 +4,6 @@ import Banner from '../components/banner/Banner'
 import Features from '../components/features/features'
 import Footer from '../components/footer/Footer'
 import Testimonials from '../components/testimonials/Testimonials'
-import './page_style.css'
 
 const HomePage = () => {
   return (
