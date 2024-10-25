@@ -1,5 +1,4 @@
 .Hero{
-    background-color: #020A1B;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -7,6 +6,7 @@
     align-items: center;
     padding: 0px 20px;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .Hero div{
     max-width: 50vw;
@@ -21,7 +21,7 @@
     width: 45%;
 }
 .Hero .text h1{
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: 700; 
     text-align: left;
     display: inline-block;
@@ -35,7 +35,7 @@
     display: inline-block;
     padding: 10px 14px;
     border-radius: 20px;
-    border: 1px;
+    border: 1px ;
 }
 .Hero .text p{
     max-width: 362px;
@@ -49,12 +49,12 @@
 .Hero button {
     background-color: #7285AF;
     border-radius: 10px;
-    padding: 8px 14px;
+    padding: 10px 18px;
     outline: none;
     border: none;
     color: #0A2D77;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 500;
     line-height: 16.94px; 
     text-align: center;
@@ -87,6 +87,31 @@
     align-items: center;
     height: 100%;
     min-width: 350px;
+    position: relative;
+    /* background-color: red; */
+}
+.Hero .image_holder:after{
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    background: linear-gradient(270deg, rgba(252, 0, 122, 0.2) 0%, rgba(27, 82, 201, 0.2) 100%);
+    height: 450px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    border-radius: 50% !important;
+    z-index: -1;
+}
+.Hero .image_holder::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 13%;
+    background: linear-gradient(270deg, rgba(252, 0, 122, 0.2) 0%, rgba(27, 82, 201, 0.2) 100%);
+    height: 20%;
+    width: 15%;
+    border-radius: 50% !important;
+    z-index: -1;
 }
 .Hero .image_holder img{
     width: 75%;

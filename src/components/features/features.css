@@ -1,5 +1,4 @@
 .features{
-
     background:  linear-gradient(90deg, rgba(2, 10, 27, 0.5) 0%, rgba(2, 10, 27, 0.5) 100%), url("https://github.com/chiscookeke11/Test-pagea/blob/main/stock-market-finance-account-report-260nw-261176156%201.png?raw=true");
     background-size: cover;
     background-position: center;
@@ -8,17 +7,21 @@
     height: auto;
     padding: 40px 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
     align-items: center;
     flex-wrap: wrap;
     min-width: 350px;
     margin: 40px auto;
+    overflow: hidden;
 }
 .features div{
     color: #ffffff;
     width: 45%;
     min-width: 340px;
     margin: 10px 10px;
+    min-width: 300px;
+    opacity: 0;
 }
 .features .image img{
     width: 100%;
@@ -29,12 +32,12 @@
 }
 .features .text h3{
     color: #FC007A;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-align: left;
 }
 .features h1{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
     line-height: 50px;
     text-align: left;
@@ -48,7 +51,8 @@
     margin: 20px 0;
     font-size: 1.1rem;
     font-weight: 300;
-    text-align: left;
+    text-align: start;
+    min-width: auto;
 }
 
 

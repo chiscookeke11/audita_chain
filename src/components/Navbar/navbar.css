@@ -1,0 +1,41 @@
+
+
+.nav-link {
+  font-weight: bold; 
+  display: flex;
+  align-items: center; 
+  padding: 0.5rem 1rem; 
+}
+
+.login_btn {
+  font-weight: bold;
+  padding: 0.5rem 1rem; 
+}
+nav{
+    transition: 0.3s ease-in-out !important;
+}
+/* Mobile menu styles */
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem; 
+}
+
+.logo{
+    max-width: 150px;
+}
+.login_btn{
+    font-size: 1.1rem;
+    color: #fff;
+    background: linear-gradient(288.42deg, #0A2B73 27.07%, #031130 55.91%, #FC007A 100.89%);
+    padding: 10px 25px;
+    align-self: center;
+    text-align: center;
+    border-radius: 20px;
+    min-width: 130px;
+    transition: 0.3s ease-in-out;
+}
+.login_btn:active{
+    transform: scale(0.9);
+}

@@ -1,62 +1,111 @@
-
-
+.banner{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10px;
+    gap: 20px;
+    text-align: center;
+}
+.banner h3{
+    color: #1B52C9;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+.banner h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+}
+.banner  p{
+    margin: 20px 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+    min-width: auto;
+    padding: 0px 20px;
+}
 
 
 
 
 .card-container{
-    background-color: red;
+    background: url("../../assets/finance-calculator-3d-render-style-600nw-2442641683 10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
     width: 100%;
     padding: 40px 10px 50px;
-    position: relative;
-    min-height: 100vh;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: auto;
     align-items: center;
 }
+.card-wrapper:nth-of-type(1){
+width: 55%;
+min-width: 350px;
+}
+.card-wrapper:nth-of-type(3){
+    width: 55%;
+    min-width: 350px;
+    }
+    .card-wrapper:nth-of-type(2){
+        width: 90%;
+        min-width: 350px;
+        }
 .card-container .card{
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 200px;
+    min-height: 320px;
     width: 200px;
     height: 300px;
     background-color: #020A1B;
     color: #ffffff;
-    padding: 10px;
+    padding: 20px 10px 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 10px;
     align-items: center;
-    position: absolute;
-    clip-path: polygon(100% 0, 100% 100%, 52% 74%, 0 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
     border-radius: 10px;
+    box-shadow: 1px 1px 50px 15px #BD0467;
+
 }
-.card-container .card:nth-of-type(1), .card-container .card:nth-of-type(2){
-    top: 5%;
+
+.card-container .card h2{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center
 }
-.card-container .card:nth-of-type(1){
-    left: 25%;
+.card-container .card p{ 
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: start;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
 }
-.card-container .card:nth-of-type(2){
-    right: 25%;
-}
-.card-container .card:nth-of-type(3), .card-container .card:nth-of-type(4){
-    top: 40%;
-}
-.card-container .card:nth-of-type(3){
-    left: 2%;
-}
-.card-container .card:nth-of-type(4){
-    right: 2%;
-}
-.card-container .card:nth-of-type(5), .card-container .card:nth-of-type(6){
-    bottom: 5%;
-}
-.card-container .card:nth-of-type(5){
-    left: 25%;
-}
-.card-container .card:nth-of-type(6){
-    right: 25%;
+.card-container .card img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -64,7 +113,12 @@
 
 
 
-
+@media (max-width:768px){
+    .card-background{
+        margin: 0 auto;
+    }
+    
+}
 
 
 
