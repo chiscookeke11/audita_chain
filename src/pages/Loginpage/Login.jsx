@@ -57,6 +57,7 @@ const LoginSignup = () => {
             </form>
 
             <div className="submit-container">
+                <button className='submit completed wallet-btn'>Connect Wallet</button>
                 <div 
                     className={action === "Sign Up" ? "submit gray" : "submit"} 
                     onClick={() => setAction("Sign Up")}

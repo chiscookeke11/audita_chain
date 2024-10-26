@@ -3,7 +3,7 @@
     height: 75vh;
     margin: 30px auto;
     border-radius: 3px;
-    background:  #031130 url("../../assets/unsplash_DNADGmifFsc.png");
+    background:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../../assets/unsplash_DNADGmifFsc.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

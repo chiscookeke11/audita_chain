@@ -3,7 +3,7 @@ import './team.css'
 
 const Team = () => {
   return (
-    <div>
+    <div className='team-card-container'>
         <div class="card">
 		<div class="image-container">
 			<img src="3.png"/>

@@ -35,8 +35,8 @@
 
 .slider-container .bottom-quote {
   position: absolute;
-  bottom: -3rem;
-  right: -0.5rem;
+  bottom: -1.7rem;
+  right: 0.5rem;
   transform: rotate(180deg);
   width: 3rem;
 }

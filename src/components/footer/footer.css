@@ -30,7 +30,7 @@
 .footer .icons a img{
     width: 1.8rem;
 }
-.footer h3{
+.footer h3, .footer h1{
     color: #1B52C9;
     font-size: 1.1rem;
     font-weight: 400;

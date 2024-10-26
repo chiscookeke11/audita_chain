@@ -1,37 +1,21 @@
 import React from 'react';
 import { image } from '../images';
-import { useInView } from 'react-intersection-observer';
-import 'animate.css';
 import './features.css';
 
 const Features = () => {
 
-  const { ref: textRef, inView: textInView } = useInView({
-    triggerOnce: true,
-    threshold: 0.3,
-  });
-
-  const { ref: imageRef, inView: imageInView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+ 
 
   return (
     <div className='features'>
       
-      {/* Image with animation */}
-      <div 
-        ref={imageRef} 
-        className={`image ${imageInView ? 'animate__animated animate__fadeInLeft' : ''}`}
-      >
+
+      <div className='image'>
         <img src={image.feature_img} alt="" />
       </div>
 
-      {/* Text with animation */}
-      <div 
-        ref={textRef} 
-        className={`text ${textInView ? 'animate__animated animate__fadeInRight' : ''}`}
-      >
+   
+      <div className='text' >
         <h3>Features</h3>
         <h1>Unlocking Audit Confidence</h1>
         <ul>

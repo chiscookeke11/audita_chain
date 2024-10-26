@@ -44,7 +44,7 @@
     line-height: 24px;
     text-align: left;
     padding: 10px 0;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 .Hero button {
     background-color: #7285AF;
@@ -59,6 +59,7 @@
     line-height: 16.94px; 
     text-align: center;
     z-index: 1;
+    padding: 15px 25px;
     position: relative;
     overflow: hidden;
     transition: 0.3s ease-in-out;
@@ -67,7 +68,7 @@
 .Hero button span{
     width: 0%;
     height: 100%;
-    background: linear-gradient(288.42deg, #0A2B73 27.07%, #031130 55.91%, #FC007A 100.89%);
+    background: #FC007A ;
     position: absolute;
     top: 0;
     left: 0;

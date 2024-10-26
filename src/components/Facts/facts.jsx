@@ -1,12 +1,7 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 import './facts.css';
 
 const Facts = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <div className='facts'>

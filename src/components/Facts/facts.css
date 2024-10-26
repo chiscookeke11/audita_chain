@@ -26,7 +26,7 @@
     font-weight: 700;
     color: #1B52C9;
     padding: 10px 2px;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FC007A;
     margin: 0 auto 10px;
 }
 .facts div p, .facts ul{
@@ -39,6 +39,7 @@
 .facts ul {
     list-style: none;
     text-align: left;
+    padding: 10px 20px;
 }
 .facts ul li{
     display: flex;
@@ -47,7 +48,7 @@
     align-items: center;
 }
 .facts .dot{
-    background-color: #FC007A;
+    background-color: #1B52C9;
     width: 10px;
     min-width:10px;
     min-height:10px;

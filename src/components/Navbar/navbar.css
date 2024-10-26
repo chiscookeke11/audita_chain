@@ -28,13 +28,16 @@ nav{
 .login_btn{
     font-size: 1.1rem;
     color: #fff;
-    background: linear-gradient(288.42deg, #0A2B73 27.07%, #031130 55.91%, #FC007A 100.89%);
+    background:  #FC007A;
     padding: 10px 25px;
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 8px;
     min-width: 130px;
     transition: 0.3s ease-in-out;
+    margin: 10px 0;
 }
 .login_btn:active{
     transform: scale(0.9);

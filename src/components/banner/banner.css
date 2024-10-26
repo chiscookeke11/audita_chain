@@ -81,10 +81,10 @@ min-width: 350px;
     justify-content: flex-start;
     gap: 10px;
     align-items: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
     border-radius: 10px;
-    box-shadow: 1px 1px 50px 15px #BD0467;
-
+    box-shadow: 1px 1px 10px 3px #BD0467;
+    margin: 0 0 15px;
+    opacity: 90%;
 }
 
 .card-container .card h2{
