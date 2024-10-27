@@ -4,6 +4,7 @@ import Banner from '../components/banner/Banner'
 import Features from '../components/features/features'
 import Footer from '../components/footer/Footer'
 import Testimonials from '../components/testimonials/Testimonials'
+import SlideHolder from '../components/teammembersmobile/SlideHolder'
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Hero/>
         <Banner/>
         <Features/>
+        <SlideHolder/>
         <Testimonials/>
         <Footer/>
     </div>

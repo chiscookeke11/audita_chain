@@ -11,11 +11,11 @@ const Footer = () => {
             <h1>AuditaBlock</h1>
             <p>AuditaBlock Streamlines auditing processes, enhancing efficency, transparency and security</p>
             <div className="icons">
-                <a href="#"><img src={image.youtube} alt="" /></a>
-                <a href="#"><img src={image.linkedin} alt="" /></a>
-                <a href="#"><img src={image.whatsapp} alt="" /></a>
-                <a href="#"><img src={image.instagram} alt="" /></a>
-                <a href="#"><img src={image.facebook} alt="" /></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/youtube.svg" alt="" /></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/linkedin.svg" alt="" /></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/whatsapp.svg" alt="" /></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/instagram%20(1).svg" alt="" /></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/facebook.svg" alt="" /></a>
             </div>
         </div>
 
