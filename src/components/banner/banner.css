@@ -82,17 +82,23 @@ min-width: 350px;
     margin: 0 0 15px;
     opacity: 90%;
 }
-.mobile-card{
-    box-shadow: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-direction: column;
-}
-.mobile-card h2, .mobile-card p{
-    margin:  0 auto;
-}
+.mobile-card {
+    display: flex !important;
+    flex-direction: column !important; 
+    justify-content: center !important; 
+    align-items: center !important;    
+    height: 400px;          
+    text-align: center;  
+    padding: 15px 20px;  
+    text-align: center !important;  
+  }
+  
+  .mobile-card img {
+    max-width: 100%;         
+    height: auto;             
+    margin-top: 10px;        
+  }
+  
 .card-container .card h2, .mobile-card h2{
     color:  #68a4a5;
     font-size: 1.1rem;
