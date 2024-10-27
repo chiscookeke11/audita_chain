@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     min-width: 350px;
     margin: 40px auto;
+    overflow: hidden;
 }
 .features div{
     color: #ffffff;
