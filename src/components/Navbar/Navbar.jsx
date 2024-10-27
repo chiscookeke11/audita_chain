@@ -1,14 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { image } from '../images';
 import { NavLink } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navbarRef = useRef(null); // Create a ref for the navbar
+
+  // Close the mobile menu when a link is clicked
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
+  // Close the mobile menu when clicking outside of the navbar
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
-    <nav className="bg-[#3A4A5A] fixed top-0 w-full" style={{ zIndex: 9999 }}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav ref={navbarRef} className="bg-[#3A4A5A] fixed top-0 w-full" style={{ zIndex: 9999 }}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <img src={image.logo} alt="Logo" className="logo" />
@@ -48,20 +68,22 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden transform transition-transform duration-300 ease-in-out">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 mobile-menu">
-            <NavLink to="/" className="block text-white hover:text-gray-300 nav-link">
+            <NavLink to="/" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
               HOME
             </NavLink>
-            <NavLink to="/aboutus" className="block text-white hover:text-gray-300 nav-link">
+            <NavLink to="/aboutus" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
               ABOUT
             </NavLink>
-            <NavLink to="/services" className="block text-white hover:text-gray-300 nav-link">
+            <NavLink to="/services" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
               SERVICES
             </NavLink>
-            <NavLink to="/contact" className="block text-white hover:text-gray-300 nav-link">
+            <NavLink to="/contact" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
               CONTACT
             </NavLink>
             <NavLink>
-              <button className="login_btn">CONNECT WALLET</button>
+              <button className="login_btn" onClick={handleLinkClick}>
+                CONNECT WALLET
+              </button>
             </NavLink>
           </div>
         </div>
