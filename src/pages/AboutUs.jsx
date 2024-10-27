@@ -7,7 +7,7 @@ import Facts from '../components/fact/Facts'
 
 const AboutUs = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#1E2A38" }}>
       <AboutUsBanner/>
       <Facts/>
       <Team/>

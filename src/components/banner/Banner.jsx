@@ -11,7 +11,7 @@ const Banner = () => {
 
   return (
     <div className='banner'>
-      <h1>Why Auditablock ?</h1>
+      <h1>Why Choose Auditablock ?</h1>
       <p>Blockchain auditing utilizes blockchain <br /> technology to 
         securely record, store and verify audit data.
       </p>
