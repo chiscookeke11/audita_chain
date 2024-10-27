@@ -1,13 +1,13 @@
 .team-card-container{
-	width: 95%;
-	background-color: red;
+	width: 70% !important;
 	margin: 50px auto;
-	display: flex;
-	justify-content: space-evenly;
+	display: flex !important;
+	justify-content: center;
 	align-items: center;
 	padding: 30px 20px;
 	flex-wrap: wrap;
 	gap: 20px;
+	height: 100%;
 }
 
 

@@ -1,8 +1,9 @@
 import React from 'react'
 import AboutUsBanner from '../components/aboutusbanner/AboutUsBanner'
 import Footer from '../components/footer/Footer'
-import Team from '../components/teammembers/Team'
 import Facts from '../components/fact/Facts'
+import TeamCardHolder from '../components/teammembers/teamcardholder/teamcardholder'
+
 
 
 const AboutUs = () => {
@@ -10,7 +11,7 @@ const AboutUs = () => {
     <div style={{ backgroundColor: "#1E2A38", overflow: "hidden" }}>
       <AboutUsBanner/>
       <Facts/>
-      <Team/>
+      <TeamCardHolder/>
       <Footer/>
      
     </div>
