@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  padding: 20px 50px;
 }
 
 /* Slider container */
@@ -58,7 +59,7 @@
 .splide__slide {
   display: flex;
   align-items: center;
-  background: linear-gradient(125.42deg, #031130 21.89%, #0A2D77 54.78%, #071F54 78.11%);
+  background:  #3A4A5A;
   padding: 3rem 1.875rem;
   border-radius: 1rem;
   gap: 1rem;
@@ -76,7 +77,7 @@
 }
 
 .slider-container .content .star {
-  color: #FC007A;
+  color: gold;
   font-size: 1.1rem;
 }
 
@@ -86,7 +87,7 @@
 }
 
 .splide__pagination__page.is-active {
-  background-color: #FC007A;
+  background-color:  #68a4a5;;
 ;
 }
 
@@ -102,13 +103,13 @@
 .splide__arrow--prev {
   top: 50%;
   left: -3.5rem;
-  background-color: #FC007A
+  background-color:  #68a4a5;
 }
 
 .splide__arrow--next {
   top: 50%;
   right: -3.5rem;
-  background-color: #FC007A;
+  background-color: #68a4a5;
 }
 
 .splide__pagination__page {

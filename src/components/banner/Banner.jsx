@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './banner.css';
 import { image } from '../images';
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   return (
     <div className='banner'>
-      <h3>ABOUT AUDITABLOCK</h3>
       <h1>Why Auditablock ?</h1>
       <p>Blockchain auditing utilizes blockchain <br /> technology to 
         securely record, store and verify audit data.
@@ -13,7 +18,7 @@ const Banner = () => {
 
       <div className="card-container">
 
-        <div className="card-wrapper">
+        <div className="card-wrapper" data-aos="fade-up">
           <span className="card-background">
             <div className='card'>
               <h2>Security</h2>
@@ -24,7 +29,7 @@ const Banner = () => {
             </div>
           </span>
 
-          <span className="card-background">
+          <span className="card-background" data-aos="fade-up">
             <div className='card'>
               <h2>Transparency</h2>
               <p>Our blockchain auditing app prioritizes 
@@ -35,7 +40,7 @@ const Banner = () => {
           </span>
         </div>
 
-        <div className="card-wrapper">
+        <div className="card-wrapper" data-aos="fade-up">
           <span className="card-background">
             <div className='card'>
               <h2>Scalability</h2>
@@ -45,7 +50,7 @@ const Banner = () => {
             </div>
           </span>
 
-          <span className="card-background">
+          <span className="card-background" data-aos="fade-up">
             <div className='card'>
               <h2>Accuracy</h2>
               <p>Our blockchain auditing app ensures precise 
@@ -55,7 +60,7 @@ const Banner = () => {
           </span>
         </div>
 
-        <div className="card-wrapper">
+        <div className="card-wrapper" data-aos="fade-up">
           <span className="card-background">
             <div className='card'>
               <h2>Cost Effectiveness</h2>
@@ -65,7 +70,7 @@ const Banner = () => {
             </div>
           </span>
 
-          <span className="card-background">
+          <span className="card-background" data-aos="fade-up">
             <div className='card'>
               <h2>Efficiency</h2>
               <p>Our blockchain auditing app optimizes 

@@ -1,5 +1,5 @@
 .footer{
-    /* background: linear-gradient(180deg, #03102D 0%, #120111 22.2%, #000000 36.73%, #03102D 64.5%, #000000 97.5%); */
+    background-color: #161E29;
     color: #fff;
     padding: 20px 20px;
     display: flex;
@@ -31,7 +31,7 @@
     width: 1.8rem;
 }
 .footer h3, .footer h1{
-    color: #1B52C9;
+    color:  #68a4a5;
     font-size: 1.1rem;
     font-weight: 400;
 }
@@ -50,7 +50,7 @@
     font-size: 1rem;
 }
 .footer ul li:hover{
-    color: #7285AF;;
+    color:  #68a4a5;;
 }
 
 

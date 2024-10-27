@@ -45,11 +45,13 @@ const Footer = () => {
         <div>
           
         <ul>
-            <h3>Navigation</h3>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Blog</li>
+            <h3>Company</h3>
+            <li>About</li>
+            <li>Commerce</li>
+            <li>Courses</li>
             <li>Contact Us</li>
+            <li>Knowledge</li>
+            <li>Demo</li>
            </ul> 
         </div>
     </div>

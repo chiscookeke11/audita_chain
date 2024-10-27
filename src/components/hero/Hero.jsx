@@ -1,34 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './hero.css';
 import { image } from '../images';
 
 const Hero = () => {
-  
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   return (
-
     <div className="Hero">
-
       {/* left-side */}
-      <div className='text' > 
-        <h1>Blockchain</h1>
+      <div className="text" data-aos="fade-right">
+        <h1>BLOCKCHAIN</h1>
         <h2>Decentralized Auditing System</h2>
-        <p>
-          A decentralized voting website solves critical problems associated with traditional voting systems.
-        </p>
+        <p>A blockchain-based auditing system ensuring transparency, security, and trust with tamper-proof records and automated processes.</p>
         <button>
-          <span></span>Learn More
+           Get Started
         </button>
       </div>
 
-
-
-
-
-
       {/* right-side */}
-      <div className='image_holder'>
-      
+      <div className="image_holder" data-aos="fade-left">
         <img src={image.banner_img} alt="Blockchain banner" />
       </div>
 

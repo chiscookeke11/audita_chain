@@ -1,5 +1,4 @@
 
-
 .nav-link {
   font-weight: bold; 
   display: flex;
@@ -26,10 +25,10 @@ nav{
     max-width: 150px;
 }
 .login_btn{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fff;
-    background:  #FC007A;
-    padding: 10px 25px;
+    background:  #68a4a5;
+    padding: 10px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +37,21 @@ nav{
     min-width: 130px;
     transition: 0.3s ease-in-out;
     margin: 10px 0;
+    box-shadow: 0 0 3px #000;
 }
 .login_btn:active{
     transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px){
+  .nav-link{
+    padding: 0.5rem 0.3rem;
+  }
 }

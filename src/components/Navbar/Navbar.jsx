@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { image } from '../images';
 import { NavLink } from 'react-router-dom';
-import './navbar.css'
+import './navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#759CBA1A]">
+    <nav className="bg-[#3A4A5A] fixed top-0 w-full" style={{ zIndex: 9999 }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
@@ -15,19 +15,19 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex space-x-4">
             <NavLink to="/" className="text-white hover:text-gray-300 nav-link">
-              Home
+              HOME
             </NavLink>
             <NavLink to="/aboutus" className="text-white hover:text-gray-300 nav-link">
-              About
+              ABOUT
             </NavLink>
             <NavLink to="/services" className="text-white hover:text-gray-300 nav-link">
-              Services
+              SERVICES
             </NavLink>
             <NavLink to="/contact" className="text-white hover:text-gray-300 nav-link">
-              Contact
+              CONTACT
             </NavLink>
-            <NavLink to="/login">
-              <button className='login_btn nav-link'>Log in</button>
+            <NavLink>
+              <button className="login_btn nav-link">CONNECT WALLET</button>
             </NavLink>
           </div>
           <div className="md:hidden flex items-center">
@@ -49,19 +49,19 @@ const Navbar = () => {
         <div className="md:hidden transform transition-transform duration-300 ease-in-out">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 mobile-menu">
             <NavLink to="/" className="block text-white hover:text-gray-300 nav-link">
-              Home
+              HOME
             </NavLink>
             <NavLink to="/aboutus" className="block text-white hover:text-gray-300 nav-link">
-              About
+              ABOUT
             </NavLink>
             <NavLink to="/services" className="block text-white hover:text-gray-300 nav-link">
-              Services
+              SERVICES
             </NavLink>
             <NavLink to="/contact" className="block text-white hover:text-gray-300 nav-link">
-              Contact
+              CONTACT
             </NavLink>
-            <NavLink to="/login">
-              <button className='login_btn'>Log in</button>
+            <NavLink>
+              <button className="login_btn">CONNECT WALLET</button>
             </NavLink>
           </div>
         </div>
