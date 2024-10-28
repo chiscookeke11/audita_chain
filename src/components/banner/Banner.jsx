@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './banner.css';
 import { image } from '../images';
+import SlideHolder from '../teammembersmobile/SlideHolder';
 
 const Banner = () => {
   useEffect(() => {
@@ -81,6 +82,7 @@ const Banner = () => {
         </div>
 
       </div>
+      <SlideHolder/>
     </div>
   );
 };

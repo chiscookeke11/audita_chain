@@ -13,7 +13,7 @@
     color: #68a4a5;
     font-size: 2.3rem;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 .banner  p{
     margin: 20px 0;
@@ -106,7 +106,7 @@ min-width: 350px;
     text-align: center
 }
 .card-container .card p, .mobile-card p{ 
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 300;
     text-align: start;
     display: inline-block;
