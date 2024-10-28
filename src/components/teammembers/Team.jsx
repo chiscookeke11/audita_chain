@@ -18,6 +18,17 @@ const Team = () => {
   const teamMembers = [
     {
       id: 1,
+      name: 'Onuigbo Edwin Kelechi',
+      description: 'Project Manager',
+      image: 'https://github.com/chiscookeke11/Test-pagea/blob/main/Kce.jpg?raw=true',
+      social: {
+        github: 'https://github.com/kce-jnr',
+        twitter: 'https://x.com/Kce_jnr?t=XWz8RJnVAa7eo8ZGFVGVQw&s=09',
+        linkedin: 'https://www.linkedin.com/in/kelechi-onuigbo-55b345195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+      }
+    },
+    {
+      id: 2,
       name: 'Okeke Chinedu',
       description: 'Frontend Developer',
       image: 'https://github.com/chiscookeke11/Test-pagea/blob/main/nedu.jpg?raw=true',
@@ -28,36 +39,36 @@ const Team = () => {
       }
     },
     {
-      id: 2,
-      name: 'Damian',
-      description: 'Smart Contract Developer',
-      image: '4.png',
+      id: 3,
+      name: 'Izuchukwu John',
+      description: 'Frontend Developer',
+      image: 'https://github.com/chiscookeke11/Test-pagea/blob/main/John.jpg?raw=true',
       social: {
-        github: 'https://github.com/chiscookeke11',
-        twitter: 'https://x.com/ChiscoDbg69906',
-        linkedin: 'link-to-linkedin'
+        github: 'https://github.com/Elite-tch',
+        twitter: 'https://x.com/IzuchukwuJ99034?t=U3W2oE9QxWBb9Kyd9IAxPQ&s=09',
+        linkedin: 'https://www.linkedin.com/in/izuchukwu-johnbosco-364657323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
       }
     },
     {
-      id: 2,
-      name: 'John',
-      description: 'Backend Developer',
-      image: '4.png',
+      id: 4,
+      name: 'Olubueze Damian',
+      description: 'Smart-Contract Developer',
+      image: 'https://github.com/chiscookeke11/Test-pagea/blob/main/Damian.jpg?raw=true',
       social: {
-        instagram: 'link-to-instagram',
-        twitter: 'link-to-twitter',
-        linkedin: 'link-to-linkedin'
+        github: 'https://github.com/czDamian',
+        twitter: 'https://x.com/buzorDamian',
+        linkedin: 'https://wa.me/2348060864466'
       }
     },
     {
-      id: 2,
+      id: 5,
       name: 'Ani Stephanie kamsiyochukwu',
       description: 'UI/UX Designer',
-      image: '4.png',
+      image: 'https://github.com/chiscookeke11/Test-pagea/blob/main/Stephanie.jpg?raw=true',
       social: {
-        instagram: 'link-to-instagram',
-        twitter: 'link-to-twitter',
-        linkedin: 'link-to-linkedin'
+        github: 'https://github.com/Stephanie-space',
+        twitter: 'https://x.com/Kamsiyochi51241?t=MCL7tH41nzU4hzhLCqUz0w&s=09',
+        linkedin: 'https://www.linkedin.com/in/kamsiyochukwu-stephanie-641b4630b'
       }
     },
     

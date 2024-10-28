@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
-import { image } from '../images'
+import { FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa'
+import { FaLinkedin, FaTwitter } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
@@ -11,11 +12,11 @@ const Footer = () => {
             <h1>AuditaBlock</h1>
             <p>AuditaBlock Streamlines auditing processes, enhancing efficency, transparency and security</p>
             <div className="icons">
-                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/youtube.svg" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/linkedin.svg" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/whatsapp.svg" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/instagram%20(1).svg" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/chiscookeke11/Test-pagea/d465d9b2ab21d9481e135c535558bae7fde96193/facebook.svg" alt="" /></a>
+                <a href="#"><FaWhatsapp/> </a>
+                <a href="#"><FaInstagram/>   </a>
+                <a href="#"><FaTwitter/> </a>
+                <a href="#"><FaLinkedin/> </a>
+                <a href="#"><FaYoutube/> </a>
             </div>
         </div>
 
