@@ -1,3 +1,22 @@
+.team-section{
+	width: 100%;
+	padding: 40px 10px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.team-section h1{
+	text-align: center;
+	color:  #68a4a5;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2px 0px;
+    border-radius: 20px;
+    border: 1px;
+    margin: 0;
+
+}
+
 .team-card-container{
 	width: 70% !important;
 	margin: 50px auto;
@@ -19,6 +38,7 @@
 	border-radius: 10px;
 	text-align: center;
 	overflow: hidden;
+	min-width: 320px;
 }
 .image-container{
 	width: 100%;
@@ -74,14 +94,14 @@
 .social-links > a{
 	font-size: 20px;
 	padding-block: 20px;
-	color: #ceac23;
+	color: grey;
 	flex: 1;
 }
 .social-links >a:not(:last-child){
 	border-right: 1px solid #cfcfcf;
 }
 .social-links > a:hover{
-	background-color: orangered;
+	background-color: #68a4a5;
 }
 .social-links > a:hover > img{
 	color: black;

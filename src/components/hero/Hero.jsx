@@ -16,9 +16,14 @@ const Hero = () => {
         <h1>BLOCKCHAIN</h1>
         <h2>Decentralized Auditing System</h2>
         <p>A blockchain-based auditing system ensuring transparency, security, and trust with tamper-proof records and automated processes.</p>
-        <button>
+      <span className="button-contain">
+      <button>
            Get Started
+        </button>  
+        <button>
+          Learn More
         </button>
+      </span>
       </div>
 
       {/* right-side */}

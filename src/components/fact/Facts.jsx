@@ -21,7 +21,8 @@ const Facts = () => {
       <div data-aos="fade-left">
         <h1>Our Story</h1>
         <p>
-          At Auditablock, we believe in the power of transparency and accountability. Our team of seasoned auditors brings decades of experience in delivering exceptional auditing services. Our commitment to excellence has earned recognition as a trusted partner in the industry.
+          At Auditablock, we believe in the power of transparency and accountability. Our team of seasoned auditors brings decades of experience in delivering exceptional auditing services.
+           Our commitment to excellence has earned recognition as a trusted partner in the industry.
         </p>
       </div>
 

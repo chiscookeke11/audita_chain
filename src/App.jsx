@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import AboutUs from './pages/AboutUs'
 import Navbar from './components/Navbar/Navbar'
 
+
 const App = () => {
   return (
     <div>

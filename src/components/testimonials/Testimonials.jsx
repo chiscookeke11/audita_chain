@@ -7,7 +7,7 @@ import './testimonials.css'
 const Testimonials = () => {
   return (
     <section className="testimonial-container">
-      
+      <h1>What People Are Saying</h1>
       <div className="slider-container">
         <blockquote>
           <img className="top-quote quote" src={Quote} alt="quote" />
