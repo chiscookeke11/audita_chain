@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './contactForm.css';
 
 const ContactForm = () => {
   const [result, setResult] = useState("");
+
+  useEffect(() => {
+    AOS.init({ duration: 1000, easing: 'ease-in-out' }); 
+  }, []);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -30,8 +36,7 @@ const ContactForm = () => {
   return (
     <div className='form-container'>
       <div className="form-wrapper">
-
-        <div className="left-side">
+        <div className="left-side" data-aos="fade-right">
           <h1>Let's Chat</h1>
           <p>Whether you have a question, want to start a project, or simply want to connect.
             <br/><br/>
@@ -39,20 +44,19 @@ const ContactForm = () => {
           </p>
         </div>
 
-        <div className="right-side">
+        <div className="right-side" data-aos="fade-left">
           <h1>Contact</h1>
-          <form onSubmit={onSubmit}>
-            <input type="text" name="name" placeholder='Name' required />
-            <input type="email" name="email" placeholder='Email' required />
-            <input type="tel" name="phone" placeholder='Phone' required />
-            <textarea name="message" id="message" cols="30" rows="5" required></textarea>
-            <button type="submit">Submit</button>
+          <form onSubmit={onSubmit} data-aos="zoom-in">
+            <input type="text" name="name" placeholder='Name' required data-aos="fade-up" data-aos-delay="100" />
+            <input type="email" name="email" placeholder='Email' required data-aos="fade-up" data-aos-delay="200" />
+            <input type="tel" name="phone" placeholder='Phone' required data-aos="fade-up" data-aos-delay="300" />
+            <textarea name="message" id="message" cols="30" rows="5" required data-aos="fade-up" data-aos-delay="400"></textarea>
+            <button type="submit" data-aos="fade-up" data-aos-delay="500">Submit</button>
           </form>
           <span>{result}</span>
         </div>
       </div>
     </div>
-
   );
 }
 

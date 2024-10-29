@@ -38,15 +38,15 @@ const Navbar = () => {
               HOME
             </NavLink>
             <NavLink to="/aboutus" className="text-white hover:text-gray-300 nav-link">
-              ABOUT
+              ABOUT US
             </NavLink>
-            <NavLink to="/services" className="text-white hover:text-gray-300 nav-link">
+            <NavLink to="/service" className="text-white hover:text-gray-300 nav-link">
               SERVICES
             </NavLink>
             <NavLink to="/contact" className="text-white hover:text-gray-300 nav-link">
               CONTACT
             </NavLink>
-            <NavLink>
+            <NavLink to={"/dashboard"}> 
               <button className="login_btn nav-link">CONNECT WALLET</button>
             </NavLink>
           </div>
@@ -74,13 +74,13 @@ const Navbar = () => {
             <NavLink to="/aboutus" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
               ABOUT
             </NavLink>
-            <NavLink to="/services" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
+            <NavLink to="/service" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
               SERVICES
             </NavLink>
             <NavLink to="/contact" className="block text-white hover:text-gray-300 nav-link" onClick={handleLinkClick}>
               CONTACT
             </NavLink>
-            <NavLink>
+            <NavLink to={"/dashboard"}>
               <button className="login_btn" onClick={handleLinkClick}>
                 CONNECT WALLET
               </button>
