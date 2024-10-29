@@ -1,10 +1,10 @@
 import React from 'react'
 import { MdArrowRight } from 'react-icons/md'
 import './faBannner.css'
-import { FaFile } from 'react-icons/fa'
 import { FiFileText } from 'react-icons/fi'
 import { BsShieldCheck } from 'react-icons/bs'
 import { GoWorkflow } from 'react-icons/go'
+import SimpleAccordion from '../Accordion'
 
 
 const FinancialAuditBanner = () => {
@@ -92,7 +92,7 @@ const FinancialAuditBanner = () => {
 
 
         <div className="FAQ">
-
+            <SimpleAccordion/>
         </div>
 
 
