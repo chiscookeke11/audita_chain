@@ -4,7 +4,8 @@ import './faBannner.css'
 import { FiFileText } from 'react-icons/fi'
 import { BsShieldCheck } from 'react-icons/bs'
 import { GoWorkflow } from 'react-icons/go'
-import SimpleAccordion from '../Accordion'
+import { NavLink } from 'react-router-dom'
+
 
 
 const FinancialAuditBanner = () => {
@@ -15,7 +16,11 @@ const FinancialAuditBanner = () => {
         <h1>Financial Audits on the Blockchain</h1>
         <h2>Service Overview</h2>
         <p>Our Financial Audits service leverages blockchain technology to provide unparalleled transparency, security, and efficiency in examining financial statements of government entities and financial institutions.</p>
-        <button>Request an Audit <MdArrowRight/> </button></div>
+       
+       
+        <NavLink to={"/requestform"}> <button>Request an Audit <MdArrowRight/> </button></NavLink></div>
+
+
         <img src="https://i.pinimg.com/736x/04/75/f1/0475f1c4cb906c613f42883e19c2ec09.jpg" alt="" className='top-img' />
 </div>
 
@@ -92,7 +97,7 @@ const FinancialAuditBanner = () => {
 
 
         <div className="FAQ">
-            <SimpleAccordion/>
+        <h1>FAQ</h1>
         </div>
 
 
