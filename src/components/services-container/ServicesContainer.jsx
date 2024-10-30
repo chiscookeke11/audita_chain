@@ -17,17 +17,19 @@ const ServicesContainer = () => {
             description: "Comprehensive examination of financial statements to ensure accuracy, completeness, and compliance with accounting standards and regulations."
         },
         { 
-            path: "/performance-audits",
+            path: "/performance_audit",
             image: "https://i.pinimg.com/474x/7c/13/09/7c13092c2e35b5312e5128955e76124f.jpg",
             title: "Performance Audits",
             description: "Evaluation of government programs, functions, or activities to assess efficiency, effectiveness, and achievement of intended outcomes."
         },
         {
+            path: "/compliance_audit",
             image: "https://i.pinimg.com/236x/7e/6d/e6/7e6de693c128a3c3f5eaa9548cdbcfaf.jpg",
             title: "Compliance Audits",
             description: "Review of an organization's adherence to laws, regulations, policies, and procedures applicable to government entities and financial institutions."
         },
         {
+            path: "/auditin",
             image: "https://i.pinimg.com/236x/9d/0f/92/9d0f92c0f7ef6a2632c0a7a029f006e6.jpg",
             title: "IT Audits",
             description: "Assessment of information systems, IT infrastructure, and related controls to ensure data integrity, security, and operational effectiveness."

@@ -9,6 +9,14 @@ import FinancialAudit from './pages/FinancialAudit';
 import Recents from './pages/dashboard/dash-box/Recents';
 import Alerts from './pages/dashboard/dash-box/Alert';
 import RequestForm from './pages/requestform/RequestForm';
+import PerformanceAudit from './pages/PerformanceAudit';
+import ComplianceAudit from './pages/ComplianceAudit';
+import AuditIn from './pages/AuditIn';
+
+
+
+
+
 const App = () => {
   return (
     <div>
@@ -22,6 +30,9 @@ const App = () => {
         <Route path="/recents" element={<Recents />} />
         <Route path="/alerts" element={<Alerts />} />
         <Route path='/requestform' element={<RequestForm/> }/>
+        <Route path='/performance_audit' element={<PerformanceAudit/> }/>
+        <Route path='/compliance_audit' element={<ComplianceAudit/> }/>
+        <Route path='/auditin' element={<AuditIn/> }/>
     
       </Routes>
     </div>

@@ -1,6 +1,6 @@
 .f-a-banner{
     width: 100%;
-    padding: 13% 20px 5%;
+    padding: 13% 3% 5%;
     text-align: initial;
 }
 .top{
@@ -85,7 +85,7 @@
     width: 400px;
     min-width: 300px;
     background-color: #3a4a5a;
-    height: 250px;
+    height: 300px;
     padding: 20px 15px;
     border-radius: 6px;
     margin: 10px 5px;
